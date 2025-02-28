@@ -38,10 +38,10 @@
                 <div class=" flex justify-center items-center gap-6">
                   <div class="flex justify-center items-center gap-3 py-2 px-4 rounded-4xl bg-blue-50">
                     <img src="./assets/checkbox.png" alt="">
-                    <h1 class=" text-3xl font-semibold">23</h1>
+                    <h1 class=" text-3xl font-semibold" id="amount23">23</h1>
                   </div>
                   <div>
-                    <img src="./assets/theme-btn.png" alt="" >
+                    <img src="./assets/theme-btn.png" alt="" id="bg-cheanger">
                   </div>
               </div>
               </div>
@@ -60,7 +60,7 @@
                         </div>
                         <div>
                             <p>Task Assigned</p>
-                            <h1 class="font-semibold text-3xl">05</h1>
+                            <h1 class="font-semibold text-3xl" >0<span id="task-num">6</span></h1>
                         </div>
                     </div>
 
@@ -101,7 +101,7 @@
                                     <p class="text-sm text-gray-400">Deadline</p>
                                     <h1 class="text-base font-semibold">21 March 2025</h1>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button class="btn btn-primary" id="completed">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -120,7 +120,7 @@
                                     <p class="text-sm text-gray-400">Deadline</p>
                                     <h1 class="text-base font-semibold">21 March 2025</h1>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button class="btn btn-primary" id="completed">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -140,7 +140,7 @@
                                     <p class="text-sm text-gray-400">Deadline</p>
                                     <h1 class="text-base font-semibold">21 March 2025</h1>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button class="btn btn-primary" id="completed">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -160,7 +160,7 @@
                                     <p class="text-sm text-gray-400">Deadline</p>
                                     <h1 class="text-base font-semibold">21 March 2025</h1>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button class="btn btn-primary" id="completed">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -179,7 +179,7 @@
                                     <p class="text-sm text-gray-400">Deadline</p>
                                     <h1 class="text-base font-semibold">21 March 2025</h1>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button class="btn btn-primary" id="completed">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -198,7 +198,7 @@
                                     <p class="text-sm text-gray-400">Deadline</p>
                                     <h1 class="text-base font-semibold">21 March 2025</h1>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button class="btn btn-primary" id="completed">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -213,12 +213,14 @@
                         <img src="./assets/activity.png" alt="">
                         <h1 class="text-xl">Activity Log</h1>
                     </div>
-                    <button class="btn btn-primary w-fit mt-4">Clear History</button>
+                    <button class="btn btn-primary w-fit mt-4" id="clear-history">Clear History</button>
                 </div>
 
                 <!-- dinamicaly adding section -->
-                 <div>
+                 <div class="pt-4" id="activity-log">
                     <!-- &----------------& -->
+                     
+                     
                  </div>
             </div>
         </section>
@@ -226,5 +228,6 @@
     <footer>
 
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
