@@ -61,3 +61,7 @@ document.getElementById("clear-history").addEventListener("click", function (eve
 })
 
 
+
+document.getElementById("q&a-btn").addEventListener("click", function(event){
+    window.location.href = "qanda.html"
+})
