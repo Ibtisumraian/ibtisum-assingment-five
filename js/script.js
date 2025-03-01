@@ -1,3 +1,18 @@
+// js for bg color cheanging
+document.getElementById("bg-color-cheanger").addEventListener("click", function(event){
+    // let num = Math.floor(Math.random() * 255)
+    function randomNumber (number){
+      let dd =  Math.floor(Math.random() * (number + 1))
+        return dd;
+    }
+    const bgColor = `rgb(${randomNumber(255)}, ${randomNumber(255)}, ${randomNumber(255)})`;
+    document.body.style.backgroundColor = bgColor;
+    
+})
+
+
+
+
 // js for Date
 let myDate = new Date();
 let newD = myDate.toDateString().split(" ")
